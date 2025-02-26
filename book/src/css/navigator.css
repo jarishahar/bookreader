@@ -1,0 +1,48 @@
+.buttonprev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background-color: hsla(0, 2%, 57%, 0.5);
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  left: 0;
+}
+
+.buttonnext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background-color: hsla(0, 2%, 57%, 0.5);
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  right: 0;
+}
+.reset {
+  position: absolute;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background-color: hsla(0, 2%, 57%, 0.5);
+  color: black;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  bottom: 0;
+  right: 0;
+}
+.swipe {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 70%;
+  width: 70%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
