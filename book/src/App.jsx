@@ -18,6 +18,7 @@ import NavigationButton from "../src/components/NavigationButton";
 import NavigationSwipe from "./components/NavigationSwipe";
 import { AnimatePresence } from "framer-motion";
 import "./app.css";
+import NavBar from "../src/components/NavBar";
 
 function App() {
   const totalPages = 15;
@@ -25,6 +26,7 @@ function App() {
   return (
     <Router>
       <div className="app">
+        <NavBar totalPages={totalPages} />
         <AnimatePresence>
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Page1 />} />
